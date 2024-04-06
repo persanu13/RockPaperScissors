@@ -1,0 +1,218 @@
+:root {
+  --background-color: #f7d060;
+  --primary-color: #665a48;
+  --secondary--color: #f5f5f5;
+  --your-color: #98d8aa;
+  --pc-color: #ff6d60;
+}
+
+.denk-one-regular {
+  font-family: "Denk One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+  background-color: var(--background-color);
+  font-family: "Denk One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  max-width: 34rem;
+  margin: auto;
+  margin-bottom: 0rem;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 3.5rem;
+
+  span:first-child {
+    color: var(--pc-color);
+  }
+  span:last-child {
+    color: var(--your-color);
+  }
+}
+
+.title div {
+  display: flex;
+  justify-content: space-around;
+  font-size: 5.5rem;
+}
+
+.title div span:first-child {
+  color: var(--pc-color);
+  transform: rotateY(180deg);
+}
+
+.title div span:last-child {
+  color: var(--your-color);
+  transform: rotateZ(-90deg) rotateY(180deg);
+}
+
+.game-mode-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 35rem;
+  margin: auto;
+}
+
+.game-mode-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--primary-color);
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.game-mode-section button {
+  background-color: var(--pc-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: "Denk One", sans-serif;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  border: var(--primary-color) solid 0.2rem;
+}
+.game-mode-section button:hover {
+  opacity: 0.9;
+}
+.game-mode-section button:active {
+  opacity: 1;
+}
+
+.game-mode-section .checked-button {
+  background-color: var(--your-color);
+}
+.game-mode-section .checked-button:hover {
+  opacity: 1;
+  cursor: default;
+}
+
+.score-sectione {
+  display: flex;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  justify-content: space-between;
+  margin: 3rem 4rem 0rem 4rem;
+  p {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.game-section h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  text-align: center;
+  margin: -2rem 0 3rem 0;
+}
+
+.game-section div {
+  display: flex;
+  justify-content: space-around;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.game-section button {
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-family: "Denk One", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary--color);
+  width: 7rem;
+  padding-top: 0.5rem;
+  p {
+    font-size: 3rem;
+    margin: 0;
+  }
+}
+
+.game-section button:hover {
+  opacity: 0.9;
+}
+.game-section button:active {
+  opacity: 1;
+}
+
+.output-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 40rem;
+  margin: auto;
+}
+
+.output-section h3 {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.output-section p {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  color: var(--primary-color);
+  margin: 0.5rem;
+}
+
+.output-section div {
+  margin: 1rem 0 0 0;
+}
+
+.output-section div:first-of-type p {
+  color: var(--your-color);
+}
+
+.output-section div:last-of-type p {
+  color: var(--pc-color);
+}
+
+.output-section div p:first-child {
+  font-size: 1.8rem;
+}
+.output-section div p:last-child {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.human-choose {
+  transform: rotateY(180deg);
+}
+
+.rock-computer {
+  transform: rotateZ(90deg) rotateX(180deg);
+}
+
+.rock-human {
+  transform: rotateZ(90deg);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

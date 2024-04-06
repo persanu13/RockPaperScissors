@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/7c16b84618.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Denk+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/main.js" defer></script>
+    <title>Rock, Paper, Scissors, Lizard, Spock</title>
+  </head>
+  <body>
+    <header class="title">
+      <h1><span>Rock, Pap</span><span>er, Scissors</span></h1>
+      <div>
+        <span><i class="fa-solid fa-hand-scissors"></i></span>
+        <span><i class="fa-solid fa-hand-back-fist"></i></span>
+      </div>
+    </header>
+    <main>
+      <section class="game-mode-section" data-game-mode>
+        <h2>Game Mode</h2>
+        <button data-mode-button="normal" class="checked-button">Normal</button>
+        <button data-mode-button="lizard-spock">Lizard-Spock</button>
+      </section>
+      <section class="score-sectione">
+        <div>
+          <p>You</p>
+          <p data-score-human>0</p>
+        </div>
+        <div>
+          <p>PC-01</p>
+          <p data-score-computer>0</p>
+        </div>
+      </section>
+      <section class="game-section">
+        <h2>Choose:</h2>
+        <div data-game-buttons>
+          <button data-chosse-button="rock">
+            Rock
+            <p><i class="fa-solid fa-hand-back-fist"></i></p>
+          </button>
+          <button data-chosse-button="scissors">
+            Scissors
+            <p><i class="fa-solid fa-hand-scissors"></i></p>
+          </button>
+          <button data-chosse-button="paper">
+            Paper
+            <p><i class="fa-solid fa-hand"></i></p>
+          </button>
+          <button data-chosse-button="lizard" class="hidden">
+            Lizard
+            <p><i class="fa-solid fa-hand-lizard"></i></p>
+          </button>
+          <button data-chosse-button="spock" class="hidden">
+            Spock
+            <p><i class="fa-solid fa-hand-spock"></i></p>
+          </button>
+        </div>
+      </section>
+      <section data-output-section class="hidden">
+        <h3 data-output-win>You Win !</h3>
+        <p data-output-mesage>Scissors cuts Paper!</p>
+        <div>
+          <p>Your Choose</p>
+          <p data-output-your-choose class="fa-solid fa-hand-scissors"></p>
+        </div>
+        <div>
+          <p>PC-01 Choose</p>
+          <p data-output-computer-choose class="fa-solid fa-hand"></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
