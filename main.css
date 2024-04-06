@@ -27,13 +27,12 @@ html {
 .title {
   max-width: 34rem;
   margin: auto;
-  margin-bottom: 0rem;
 }
 
 .title h1 {
   text-align: center;
   font-size: 3.5rem;
-
+  margin-bottom: 0rem;
   span:first-child {
     color: var(--pc-color);
   }
@@ -134,7 +133,7 @@ html {
   font-family: "Denk One", sans-serif;
   background-color: var(--primary-color);
   color: var(--secondary--color);
-  width: 7rem;
+  width: 6.8rem;
   padding-top: 0.5rem;
   p {
     font-size: 3rem;
@@ -190,7 +189,6 @@ html {
 }
 .output-section div p:last-child {
   font-size: 4rem;
-  margin: 0;
 }
 
 .human-choose {
